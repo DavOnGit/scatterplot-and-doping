@@ -6,7 +6,7 @@
 
 Hi, this is a simple data viz. project using D3.js!
 
-So let's [PLAY!](https://davongit.github.io/scatterplot-and-doping/)
+See it live: [DEMO](https://davongit.github.io/scatterplot-and-doping/)
 
 ### Running Locally
 

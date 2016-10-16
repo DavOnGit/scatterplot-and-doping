@@ -1,0 +1,106 @@
+body {
+				height: 100%;
+				margin: 0;
+				background-color: #cacaca;
+				background-image: url("../resources/cycle-patt.jpg");
+				font-family: 'Roboto', Tahoma, Verdana, sans-serif;
+				font-size: 12px;
+				text-align: center;
+}
+
+.chartSvg {
+				margin-top: 30px;
+				background-color: rgba(255, 255, 255, 0.75);
+				cursor: crosshair;
+}
+
+#title {
+				font-size: 26px;
+				text-anchor: middle;
+}
+
+#tooltip {
+				display: none;
+				position: absolute;
+				width: 210px;
+				height: 190px;
+				padding: 0px;
+				background-color: rgba(255, 255, 255, 0.8);
+				border-radius: 10px;
+				opacity: 0;
+}
+
+#tooltip p, #tooltip h2 {
+				margin: 0;
+				padding: 5px;
+				font-weight: bold;
+}
+
+#tooltip h2 {
+				padding-top: 10px;
+}
+
+#tooltip a {
+				text-decoration: none;
+}
+
+.no-select {
+				-webkit-touch-callout: none;
+				/* iOS Safari */
+				-webkit-user-select: none;
+				/* Chrome/Safari/Opera */
+				/* Konqueror */
+				-moz-user-select: none;
+				/* Firefox */
+				-ms-user-select: none;
+				user-select: none;
+}
+
+#link-ghub {
+				position: absolute;
+				top: 0;
+				right: 0;
+}
+
+#link-ghub:hover .octo-arm {
+				-webkit-animation: octocat-wave .56s;
+				        animation: octocat-wave .56s;
+}
+
+#link-ghub svg {
+				width: 80px;
+				height: 80px;
+				color: #000000;
+				fill: rgba(255, 255, 255, 0.75);
+				mix-blend-mode: lighten;
+}
+
+@-webkit-keyframes octocat-wave {
+				0%, 100% {
+								-webkit-transform: rotate(0);
+								        transform: rotate(0);
+				}
+				20%, 60% {
+								-webkit-transform: rotate(-20deg);
+								        transform: rotate(-20deg);
+				}
+				40%, 80% {
+								-webkit-transform: rotate(10deg);
+								        transform: rotate(10deg);
+				}
+}
+
+@keyframes octocat-wave {
+				0%, 100% {
+								-webkit-transform: rotate(0);
+								        transform: rotate(0);
+				}
+				20%, 60% {
+								-webkit-transform: rotate(-20deg);
+								        transform: rotate(-20deg);
+				}
+				40%, 80% {
+								-webkit-transform: rotate(10deg);
+								        transform: rotate(10deg);
+				}
+}

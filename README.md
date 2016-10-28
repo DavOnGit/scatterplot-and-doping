@@ -11,7 +11,7 @@ See it live: [DEMO](https://davongit.github.io/scatterplot-and-doping/)
 ### Running Locally
 
 ```sh
-$ git clone https://github.com/DavOnGit/Simon-Game.git # or clone your own fork
+$ git clone https://github.com/DavOnGit/scatterplot-and-doping.git # or clone your own fork
 $ cd scatterplot-and-doping
 $ npm install
 $ npm start

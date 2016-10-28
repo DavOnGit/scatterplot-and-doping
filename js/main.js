@@ -86,7 +86,7 @@ d3.xml("./resources/github-corner.svg").mimeType("image/svg+xml").get(function(e
 	if (error) throw error;
 
 	var link = document.createElement("a");
-	link.setAttribute("href", "http://www.github.com/");
+	link.setAttribute("href", "https://github.com/DavOnGit/scatterplot-and-doping");
 	link.appendChild(xml.documentElement);
 	document.body.appendChild(link).setAttribute("id", "link-ghub");
 });
